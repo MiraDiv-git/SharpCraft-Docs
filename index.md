@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "SharpCraft Docs"
-  tagline: Official documentation for open-source Minecraft-like engine written on C#
+  tagline: Official documentation for open-source voxel 3D engine written on C#
   
   actions:
     - text: About & Setup
