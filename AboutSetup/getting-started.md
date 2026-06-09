@@ -1,15 +1,16 @@
 # Getting Started
 
-Let's get SharpCraft Engine up and running on your machine.
+Let's get SharpCraft Engine up and running on your machine!
+
+::: tip Supported platforms
+Currently SharpCraft is a PC engine, available on Windows, Linux and macOS.
+:::
 
 ## Prerequisites
 
 Before you begin, make sure you have the following installed:
 - **[.NET SDK 10.0](https://dotnet.microsoft.com)**
 - **Any C#-capable IDE** — [Visual Studio](https://visualstudio.microsoft.com/), [VS Code](https://code.visualstudio.com/), [JetBrains Rider](https://www.jetbrains.com/rider/), [MonoDevelop](https://www.monodevelop.com/), whatever you prefer
-
-Additional:
-- **[Xcode](https://developer.apple.com/xcode/)** — only for macOS build.
 
 ## Setup
 
@@ -34,18 +35,15 @@ The most convenient option. Create a publish profile with these settings:
 
 The repo includes `build.sh` and `build.bat` for quick builds. Usage: `./build.sh <os> [config]`
 
-**Linux:**
+**For example:**
 ```sh
 chmod +x ./build.sh
 ./build.sh linux-x64 Debug
 ```
 
-**Windows:**
-```cmd
-./build.bat win-x64 Debug
-```
-
 ### Using the .NET CLI directly
+
+You can just use publish settings like that using `.NET CLI` for full control over build parameters.
 
 ```sh
 dotnet publish SharpCraft/SharpCraft.csproj \
@@ -55,7 +53,3 @@ dotnet publish SharpCraft/SharpCraft.csproj \
   -p:PublishSingleFile=true \
   -o ./publish
 ```
-
-::: info Cross-platform builds
-.NET publish is cross-platform — you can target any OS from any OS. The only exception is macOS targets, which require Xcode-specific tools available only on macOS.
-:::

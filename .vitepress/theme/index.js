@@ -8,7 +8,7 @@ export default {
   ...VPCarbon,
   Layout() {
     return h(VPCarbon.Layout, null, {
-      'nav-bar-title-after': () => h(VersionBadge)
+      'nav-bar-title-after': () => h(VersionBadge, { version: 'v0.2.1' })
     })
   },
   enhanceApp({ app, router, siteData }) {

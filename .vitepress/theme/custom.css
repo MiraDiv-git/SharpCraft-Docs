@@ -14,9 +14,12 @@
   margin-top: 32px;
 }
 
-.VPNavBarHamburger { display: none !important; }
+@media (min-width: 768px) {
+  .VPNavBarHamburger { display: none !important; }
+  .VPNavBarExtra { display: none !important; }
+}
+
 .VPNavBarSocialLinks { display: flex !important; }
-.VPNavBarExtra { display: none !important; }
 
 .VPButton {
   font-family: var(--vp-font-family-mono) !important;
@@ -80,6 +83,26 @@
 
 .feature-row.reverse {
   flex-direction: row-reverse;
+}
+
+@media (max-width: 767px) {
+  .feature-row,
+  .feature-row.reverse {
+    flex-direction: column;
+    padding: 40px 24px;
+    max-width: 100%;
+    gap: 24px;
+  }
+
+  .feature-img {
+    flex: none;
+    width: 100%;
+  }
+
+  .feature-text {
+    flex: none;
+    width: 100%;
+  }
 }
 
 .feature-img {
