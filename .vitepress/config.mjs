@@ -22,7 +22,7 @@ export default defineConfig({
 
   themeConfig: {
     footer: {
-      message: 'Released under the <a href="license">MIT License</a>',
+      message: 'Released under the <a href="/AboutSetup/license">MIT License</a>',
       copyright: '© 2026 MiraDiv &nbsp;·&nbsp; © 2026 SharpCraft Contributors'
     },
     sidebar: [

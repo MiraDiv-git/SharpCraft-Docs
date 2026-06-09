@@ -6,7 +6,7 @@ Let's get SharpCraft Engine up and running on your machine.
 
 Before you begin, make sure you have the following installed:
 - **.NET SDK 10.0**
-- **Any C#-capable IDE** — Visual Studio, VS Code, JetBrains Rider, MonoDevelop, whatever you prefer
+- **Any C#-capable IDE** — [Visual Studio](https://visualstudio.microsoft.com/), [VS Code](https://code.visualstudio.com/), [JetBrains Rider](https://www.jetbrains.com/rider/), [MonoDevelop](https://www.monodevelop.com/), whatever you prefer
 
 ## Setup
 
