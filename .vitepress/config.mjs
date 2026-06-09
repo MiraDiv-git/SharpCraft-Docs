@@ -2,6 +2,12 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  vite: {
+    ssr: {
+      noExternal: ['vitepress-carbon']
+    }
+  },
+  
   title: "SharpCraft Docs",
   description: "Documentation for SharpCraft, a Minecraft-like engine written in C#.",
   appearance: false,
