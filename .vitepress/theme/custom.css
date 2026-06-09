@@ -1,0 +1,142 @@
+.VPHero .name {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.VPHero .tagline {
+  max-width: none !important;
+  text-align: center;
+}
+
+.VPHero .actions {
+  justify-content: center;
+  margin-top: 32px;
+}
+
+.VPNavBarHamburger { display: none !important; }
+.VPNavBarSocialLinks { display: flex !important; }
+.VPNavBarExtra { display: none !important; }
+
+.VPButton {
+  font-family: var(--vp-font-family-mono) !important;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.VPButton.medium {
+  font-size: 14px !important;
+  padding: 0 28px !important;
+  line-height: 46px !important;
+  border-radius: 9999px !important;
+}
+
+.VPButton.medium.brand {
+  background: transparent;
+  border: 1px solid var(--vp-c-brand-1);
+  color: var(--vp-c-brand-1);
+}
+
+.VPButton.medium.brand:hover {
+  background: var(--vp-c-brand-1);
+  color: #000;
+}
+
+.VPButton.medium.alt {
+  background: transparent;
+  border: 1px solid var(--vp-c-text-2);
+  color: var(--vp-c-text-2);
+}
+
+.VPButton.medium.alt:hover {
+  border-color: var(--vp-c-text-1);
+  color: var(--vp-c-text-1);
+}
+
+.VPHero .actions .action:nth-child(2) .VPButton { border-color: #4ade80 !important; color: #4ade80 !important; }
+.VPHero .actions .action:nth-child(3) .VPButton { border-color: #60a5fa !important; color: #60a5fa !important; }
+.VPHero .actions .action:nth-child(1) .VPButton { border-color: #f472b6 !important; color: #f472b6 !important; }
+
+.VPHero .actions .action:nth-child(2) .VPButton:hover { background: #4ade80 !important; color: #000 !important; }
+.VPHero .actions .action:nth-child(3) .VPButton:hover { background: #60a5fa !important; color: #000 !important; }
+.VPHero .actions .action:nth-child(1) .VPButton:hover { background: #f472b6 !important; color: #000 !important; }
+
+.version-badge {
+  cursor: default;
+}
+
+.feature-row {
+  display: flex;
+  align-items: center;
+  gap: 48px;
+  padding: 64px 48px;
+  margin: 0 auto;
+  border-top: 1px solid var(--vp-c-border);
+  max-width: 80%;
+  padding: 64px 10%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.feature-row.reverse {
+  flex-direction: row-reverse;
+}
+
+.feature-img {
+  flex: 0 0 45%;
+  min-width: 0;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9; /* Жёсткое соотношение сторон */
+  object-fit: cover;    /* Обрезает лишнее, заполняя контейнер */
+  object-position: center;
+  border-radius: 12px;
+  border: 1px solid var(--vp-c-border);
+  
+  max-width: 100%;
+  display: block;
+}
+
+.feature-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+  border-radius: inherit;
+}
+
+.feature-text {
+  flex: 0 0 45%;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.feature-text h3 {
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 12px;
+  color: var(--vp-c-text-1);
+}
+
+.feature-text p {
+  font-size: 15px;
+  color: var(--vp-c-text-2);
+  line-height: 1.7;
+}
+
+.VPHome .VPHomeContent {
+  max-width: 100% !important;
+  padding: 0 !important;
+}
+
+.vp-doc {
+  max-width: 100% !important;
+  padding: 0 !important;
+}
+
+.VPFeatures {
+  padding-bottom: 64px !important; /* Настраивай размер отступа здесь (64px, 80px и т.д.) */
+}

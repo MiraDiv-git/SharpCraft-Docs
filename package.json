@@ -1,0 +1,25 @@
+{
+  "name": "sharpcraft-docs",
+  "version": "1.0.0",
+  "description": "",
+  "license": "MIT",
+  "author": "MiraDiv",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview"
+  },
+  "devDependencies": {
+    "vitepress": "^2.0.0-alpha.17"
+  },
+  "allowScripts": {
+    "esbuild@0.27.7": true,
+    "vitepress-carbon@1.6.0": true
+  },
+  "dependencies": {
+    "vitepress-carbon": "^1.6.0"
+  }
+}

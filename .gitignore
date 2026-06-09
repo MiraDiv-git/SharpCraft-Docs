@@ -1,0 +1,13 @@
+### VitePress
+
+# Dirs
+.vitepress/dist
+.vitepress/cache
+
+#Files
+api-examples.md
+markdown-examples.md
+
+
+### Node
+node_modules/
