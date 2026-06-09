@@ -2,6 +2,8 @@
 
 SharpCraft is distributed under the **MIT License** — one of the most permissive open-source licenses available.
 
+## License Conditions
+
 ::: info What you can do?
 - **Use** — in personal, educational, and commercial projects
 - **Fork and modify** — do whatever you want with the source code

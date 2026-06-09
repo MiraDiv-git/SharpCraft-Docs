@@ -53,12 +53,12 @@
   color: var(--vp-c-text-1);
 }
 
-.VPHero .actions .action:nth-child(2) .VPButton { border-color: #4ade80 !important; color: #4ade80 !important; }
-.VPHero .actions .action:nth-child(3) .VPButton { border-color: #60a5fa !important; color: #60a5fa !important; }
+.VPHero .actions .action:nth-child(3) .VPButton { border-color: #4ade80 !important; color: #4ade80 !important; }
+.VPHero .actions .action:nth-child(2) .VPButton { border-color: #60a5fa !important; color: #60a5fa !important; }
 .VPHero .actions .action:nth-child(1) .VPButton { border-color: #f472b6 !important; color: #f472b6 !important; }
 
-.VPHero .actions .action:nth-child(2) .VPButton:hover { background: #4ade80 !important; color: #000 !important; }
-.VPHero .actions .action:nth-child(3) .VPButton:hover { background: #60a5fa !important; color: #000 !important; }
+.VPHero .actions .action:nth-child(3) .VPButton:hover { background: #4ade80 !important; color: #000 !important; }
+.VPHero .actions .action:nth-child(2) .VPButton:hover { background: #60a5fa !important; color: #000 !important; }
 .VPHero .actions .action:nth-child(1) .VPButton:hover { background: #f472b6 !important; color: #000 !important; }
 
 .version-badge {
@@ -87,8 +87,8 @@
   min-width: 0;
   width: 100%;
   height: auto;
-  aspect-ratio: 16 / 9; /* Жёсткое соотношение сторон */
-  object-fit: cover;    /* Обрезает лишнее, заполняя контейнер */
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
   object-position: center;
   border-radius: 12px;
   border: 1px solid var(--vp-c-border);
@@ -138,5 +138,10 @@
 }
 
 .VPFeatures {
-  padding-bottom: 64px !important; /* Настраивай размер отступа здесь (64px, 80px и т.д.) */
+  padding-bottom: 64px !important;
+}
+
+.VPNavBarTranslations {
+  border: none !important;
+  /* background: transparent !important; */
 }

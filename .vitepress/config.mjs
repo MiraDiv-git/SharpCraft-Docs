@@ -1,10 +1,30 @@
 import { defineConfig } from 'vitepress'
 
-// https://vitepress.dev/reference/site-config
+import enSidebar from './sidebar/en'
+import uaSidebar from './sidebar/ua'
+
 export default defineConfig({
   vite: {
     ssr: {
       noExternal: ['vitepress-carbon']
+    }
+  },
+
+  locales: {
+    root: {
+      label: 'English',
+      lang: 'en',
+      themeConfig: {
+        sidebar: enSidebar
+      }
+    },
+
+    ua: {
+      label: 'Українська',
+      lang: 'uk',
+      themeConfig: {
+        sidebar: uaSidebar
+      }
     }
   },
   
@@ -21,33 +41,12 @@ export default defineConfig({
 
 
   themeConfig: {
+    sidebar: enSidebar,
+
     footer: {
       message: 'Released under the <a href="/AboutSetup/license">MIT License</a>',
       copyright: '© 2026 MiraDiv &nbsp;·&nbsp; © 2026 SharpCraft Contributors'
     },
-    sidebar: [
-      {
-        text: 'About & Setup',
-        items: [
-          { text: 'Introduction', link: '/AboutSetup/introduction' },
-          { text: 'License', link: '/AboutSetup/license' },
-          { text: 'Getting Started', link: '/AboutSetup/getting-started' },
-        ]
-      },
-      {
-        text: 'Engine',
-        items: [
-          { text: 'Rendering', link: '/engine/rendering' },
-          { text: 'Physics', link: '/engine/physics' },
-        ]
-      },
-      {
-        text: 'Game',
-        items: [
-          { text: 'World', link: '/game/world' },
-        ]
-      }
-    ],
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/MiraDiv-git/SharpCraft' },
