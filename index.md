@@ -8,12 +8,12 @@ hero:
   
   actions:
     - text: About & Setup
-      link: /setup
-
-    - text: Game API
-      link: /
+      link: /AboutSetup/introduction
 
     - text: Engine API
+      link: /
+      
+    - text: Game API
       link: /
 
 # features:

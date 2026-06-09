@@ -2,13 +2,11 @@
 
 SharpCraft is distributed under the **MIT License** — one of the most permissive open-source licenses available.
 
-This means you can:
-
-::: info What you can do
-- 🔧 **Use** — in personal, educational, and commercial projects
-- 🍴 **Fork and modify** — do whatever you want with the source code
-- 📦 **Distribute** — including as part of your own products
-- 💰 **Use commercially** — no royalties, no approvals needed
+::: info What you can do?
+- **Use** — in personal, educational, and commercial projects
+- **Fork and modify** — do whatever you want with the source code
+- **Distribute** — including as part of your own products
+- **Use commercially** — no royalties, no approvals needed
 :::
 
 ::: warning Only requirement
@@ -48,4 +46,4 @@ SOFTWARE.
 </div>
 
 The canonical license file is always available in the repository:
-[LICENSE on GitHub →](https://github.com/MiraDiv/SharpCraft/blob/main/LICENSE)
+[LICENSE on GitHub](https://github.com/MiraDiv-git/SharpCraft/blob/main/LICENSE)

@@ -23,15 +23,9 @@ export default defineConfig({
       {
         text: 'About & Setup',
         items: [
-          { text: 'Introduction', link: '/setup' },
-          { text: 'License', link: '/license' },
-          { text: 'Getting Started', link: '/getting-started' },
-        ]
-      },
-      {
-        text: 'Game',
-        items: [
-          { text: 'World', link: '/game/world' },
+          { text: 'Introduction', link: '/AboutSetup/introduction' },
+          { text: 'License', link: '/AboutSetup/license' },
+          { text: 'Getting Started', link: '/AboutSetup/getting-started' },
         ]
       },
       {
@@ -39,6 +33,12 @@ export default defineConfig({
         items: [
           { text: 'Rendering', link: '/engine/rendering' },
           { text: 'Physics', link: '/engine/physics' },
+        ]
+      },
+      {
+        text: 'Game',
+        items: [
+          { text: 'World', link: '/game/world' },
         ]
       }
     ],
