@@ -11,7 +11,7 @@ hero:
       link: /ua/AboutSetup/introduction
 
     - text: Розробка рушія
-      link: /ua/
+      link: /ua/Engine/Classes/class-list
       
     - text: Розробка гри
       link: /ua/

@@ -1,6 +1,3 @@
----
-outline: deep
----
 # Introduction
 
 SharpCraft is an open-source engine for building Minecraft-like voxel games, written in C# on top of [Silk.NET](https://github.com/dotnet/Silk.NET) and OpenGL.

@@ -25,7 +25,7 @@ export default defineConfig({
       themeConfig: {
         sidebar: uaSidebar
       }
-    }
+    },
   },
   
   title: "SharpCraft Docs",
