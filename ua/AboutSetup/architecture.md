@@ -7,7 +7,7 @@
 Це точка входу SharpCraft. Містить лише скрипт `Program.cs`, який запускає все в рушії та грі:
 
 - Встановлює директорію для збереження конфігураційних файлів, наприклад `settings.json`
-- Створює екземпляр [GameWindow](/Engine/GameWindow)
+- Створює екземпляр [GameWindow](/ua/Engine/Classes/GameWindow.md)
 - Встановлює сцену за замовчуванням
 - Запускає створене вікно
 
@@ -17,15 +17,15 @@
 
 Це ядро SharpCraft. Надає всі низькорівневі системи, які можуть використовувати як вбудована гра, так і будь-яка гра, побудована на основі SharpCraft:
 
-- Керує [GameWindow](/Engine/GameWindow), [SceneManager](/Engine/SceneManager) та головним ігровим циклом
-- Обробляє введення через [InputManager](/Engine/InputManager)
-- Відображає інтерфейс через [UIRenderer](/Engine/UIRenderer) та його ієрархію елементів ([Canvas](/Engine/UI/Canvas), [UIElement](/Engine/UI/UIElement), [UIButton](/Engine/UI/UIButton), [UIText](/Engine/UI/UIText), [UISlider](/Engine/UI/UISlider))
-- Відтворює звук через [AudioManager](/Engine/AudioManager) (OpenAL + NVorbis)
-- Завантажує ресурси через [AssetManager](/Engine/AssetManager) з ZIP-архіву `.scres`
-- Керує шейдерами, текстурами, мешами та звуками ([Shader](/Engine/Render/Shader), [Texture](/Engine/Render/Texture), [Mesh](/Engine/Render/Mesh), [Sound](/Engine/Sound))
+- Керує [GameWindow](/ua/Engine/Classes/class-list.md), [SceneManager](/ua/Engine/Classes/class-list.md) та головним ігровим циклом
+- Обробляє введення через [InputManager](/ua/Engine/Classes/class-list.md)
+- Відображає інтерфейс через [UIRenderer](/ua/Engine/Classes/class-list.md) та його ієрархію елементів ([Canvas](/ua/Engine/Classes/class-list.md), [UIElement](/ua/Engine/Classes/class-list.md), [UIButton](/ua/Engine/Classes/class-list.md), [UIText](/ua/Engine/Classes/class-list.md), [UISlider](/ua/Engine/Classes/class-list.md))
+- Відтворює звук через [AudioManager](/ua/Engine/Classes/class-list.md) (OpenAL + NVorbis)
+- Завантажує ресурси через [AssetManager](/ua/Engine/Classes/class-list.md) з ZIP-архіву `.scres`
+- Керує шейдерами, текстурами, мешами та звуками ([Shader](/ua/Engine/Classes/class-list.md), [Texture](/ua/Engine/Classes/class-list.md), [Mesh](/ua/Engine/Classes/class-list.md), [Sound](/ua/Engine/Classes/class-list.md))
 - Забезпечує локалізацію через JSON-файли локалей, вбудовані в архів ресурсів
-- Зберігає налаштування користувача через [UserSettings](/Engine/UserSettings) (`settings.json` на диску)
-- Інтегрує Discord Rich Presence через [DiscordManager](/Engine/DiscordManager)
+- Зберігає налаштування користувача через [UserSettings](/ua/Engine/Classes/class-list.md) (`settings.json` на диску)
+- Інтегрує Discord Rich Presence через [DiscordManager](/ua/Engine/Classes/class-list.md)
 - Ініціалізує всі класи як модулі
 
 > **Примітка:** `SharpCraft.Engine` **не** залежить від `SharpCraft.Game`.
@@ -34,8 +34,8 @@
 
 Це вбудована воксельна гра, що постачається разом із SharpCraft. Використовує системи рушія для реалізації ігрового процесу:
 
-- Реалізує всі ігрові екрани: [MainMenuScreen](/Game/Screens/MainMenuScreen), [PlayScreen](/Game/Screens/PlayScreen), [OptionsScreen](/Game/Screens/OptionsScreen), [PauseScreen](/Game/Screens/PauseScreen)
-- Відображає світ через [WorldScene](/Game/WorldScene), яка надає статичну властивість `Camera`
-- Генерує та зберігає воксельний рельєф через [WorldGenerator](/Game/WorldGenerator) — планується розділити на `World` (зберігання блоків) та `WorldGenerator` (процедурна генерація)
-- Відображає HUD із прицілом і перемикним [DebugScreen](/Game/DebugScreen) (F3)
+- Реалізує всі ігрові екрани: [MainMenuScreen](/ua/Engine/Classes/class-list.md), [PlayScreen](/ua/Engine/Classes/class-list.md), [OptionsScreen](/ua/Engine/Classes/class-list.md), [PauseScreen](/ua/Engine/Classes/class-list.md)
+- Відображає світ через [WorldScene](/ua/Engine/Classes/class-list.md), яка надає статичну властивість `Camera`
+- Генерує та зберігає воксельний рельєф через [WorldGenerator](/ua/Engine/Classes/class-list.md) — планується розділити на `World` (зберігання блоків) та `WorldGenerator` (процедурна генерація)
+- Відображає HUD із прицілом і перемикним [DebugScreen](/ua/Engine/Classes/class-list.md) (F3)
 - Обробляє AABB-фізику для руху гравця та зіткнень

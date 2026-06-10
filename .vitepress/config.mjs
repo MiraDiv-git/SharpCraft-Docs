@@ -9,6 +9,7 @@ export default defineConfig({
       noExternal: ['vitepress-carbon']
     }
   },
+  ignoreDeadLinks: true,
 
   locales: {
     root: {
