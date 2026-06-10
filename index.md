@@ -25,6 +25,10 @@ hero:
 #     title: "OpenGL Renderer"
 #     details: "GPU rendering backend using OpenGL: shaders, buffers, and frame rendering."
 ---
+<div class="WIPWarning">
+  <span>⚠️ SharpCraft Engine and its documentation are currently a work in progress.<br>
+  Some features may be incomplete, unavailable, or not fully documented yet.</span>
+</div>
 
 <div class="feature-row">
   <!-- <img src="/screenshots/rendering.png" class="feature-img"/> -->

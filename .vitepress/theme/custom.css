@@ -168,3 +168,15 @@
   border: none !important;
   /* background: transparent !important; */
 }
+
+.WIPWarning {
+  width: fit-content;
+  margin: 24px auto;
+  padding: 12px 24px;
+  background: var(--vp-c-warning-soft);
+  border: 1px solid var(--vp-c-warning-2);
+  border-radius: 8px;
+  color: var(--vp-c-warning-1);
+  font-size: 14px;
+  text-align: center;
+}

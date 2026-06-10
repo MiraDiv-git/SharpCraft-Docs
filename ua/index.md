@@ -26,6 +26,11 @@ hero:
 #     details: "GPU rendering backend using OpenGL: shaders, buffers, and frame rendering."
 ---
 
+<div class="WIPWarning">
+  <span>⚠️ Рушій SharpCraft та його документація наразі перебувають у стадії активної розробки.<br>
+  Деякі функції можуть бути незавершеними, недоступними або ще не повністю задокументованими.</span>
+</div>
+
 <div class="feature-row">
   <!-- <img src="/screenshots/rendering.png" class="feature-img"/> -->
   <img src="https://picsum.photos/seed/rendering/480/270" class="feature-img"/>
