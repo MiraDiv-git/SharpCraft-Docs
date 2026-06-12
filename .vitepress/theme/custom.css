@@ -180,3 +180,7 @@
   font-size: 14px;
   text-align: center;
 }
+
+span[style*="--shiki-dark"] {
+  color: var(--shiki-dark) !important;
+}

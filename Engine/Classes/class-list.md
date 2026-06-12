@@ -1,6 +1,6 @@
 # Classes
 
-## Engine Root Namespace
+## Engine Root
 - [**DiscordManager**](class-list) *(WIP)*
 - [**GameWindow**](GameWindow)
 - [**GlobalUsings**](class-list) *(WIP)*
@@ -12,7 +12,7 @@
 
 ## Audio
 - [**AudioManager**](class-list) *(WIP)*
-- [**Sound**](class-list)
+- [**Sound**](class-list) *(WIP)*
 
 ## Input
 - [**CommandHandler**](class-list) *(WIP)*

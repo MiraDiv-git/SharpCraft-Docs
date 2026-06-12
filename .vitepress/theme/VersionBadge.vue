@@ -1,14 +1,17 @@
 <script setup>
-const props = defineProps({
-  version: {
-    type: String,
-    default: 'dev'
-  }
+import { ref, onMounted } from 'vue'
+
+const version = ref('...')
+
+onMounted(async () => {
+  const res = await fetch('https://api.github.com/repos/MiraDiv-git/SharpCraft/tags')
+  const data = await res.json()
+  version.value = data[0]?.name ?? 'dev'
 })
 </script>
 
 <template>
-  <span class="version-badge">{{ props.version }}</span>
+  <span class="version-badge">{{ version }}</span>
 </template>
 
 <style scoped>

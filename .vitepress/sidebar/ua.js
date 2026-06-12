@@ -10,53 +10,107 @@ export default [
     ]
   },
   {
-    text: "Розробка рушія",
+    text: "Engine API",
     items: [
       {
         text: "Класи",
         collapsed: true,
         link: "/ua/Engine/Classes/class-list",
         items: [
-          { text: "AABB", link: "/ua/Engine/Classes/AABB" },
-          { text: "Anchor", link: "/ua/Engine/Classes/Anchor" },
-          { text: "AssetManager", link: "/ua/Engine/Classes/AssetManager" },
-          { text: "AudioManager", link: "/ua/Engine/Classes/AudioManager" },
-          { text: "Block", link: "/ua/Engine/Classes/Block" },
-          { text: "BlockMeshes", link: "/ua/Engine/Classes/BlockMeshes" },
-          { text: "BlockOutlineRenderer", link: "/ua/Engine/Classes/BlockOutlineRenderer" },
-          { text: "Camera", link: "/ua/Engine/Classes/Camera" },
-          { text: "Canvas", link: "/ua/Engine/Classes/Canvas" },
-          { text: "Chunk", link: "/ua/Engine/Classes/Chunk" },
-          { text: "CommandHandler", link: "/ua/Engine/Classes/CommandHandler" },
-          { text: "ColorTranslator", link: "/ua/Engine/Classes/ColorTranslator" },
-          { text: "DiscordManager", link: "/ua/Engine/Classes/DiscordManager" },
-          { text: "GameWindow", link: "/ua/Engine/Classes/GameWindow" },
-          { text: "GameWorld", link: "/ua/Engine/Classes/GameWorld" },
-          { text: "GlobalUsings", link: "/ua/Engine/Classes/GlobalUsings" },
-          { text: "InputManager", link: "/ua/Engine/Classes/InputManager" },
-          { text: "IScene", link: "/ua/Engine/Classes/IScene" },
-          { text: "KeyBind", link: "/ua/Engine/Classes/KeyBind" },
-          { text: "Localization", link: "/ua/Engine/Classes/Localization" },
-          { text: "Mesh", link: "/ua/Engine/Classes/Mesh" },
-          { text: "Player", link: "/ua/Engine/Classes/Player" },
-          { text: "Raycast", link: "/ua/Engine/Classes/Raycast" },
-          { text: "SceneManager", link: "/ua/Engine/Classes/SceneManager" },
-          { text: "Shader", link: "/ua/Engine/Classes/Shader" },
-          { text: "Sound", link: "/ua/Engine/Classes/Sound" },
-          { text: "Texture", link: "/ua/Engine/Classes/Texture" },
-          { text: "Time", link: "/ua/Engine/Classes/Time" },
-          { text: "UIAnimation", link: "/ua/Engine/Classes/UIAnimation" },
-          { text: "UIButton", link: "/ua/Engine/Classes/UIButton" },
-          { text: "UIElement", link: "/ua/Engine/Classes/UIElement" },
-          { text: "UIHint", link: "/ua/Engine/Classes/UIHint" },
-          { text: "UIImage", link: "/ua/Engine/Classes/UIImage" },
-          { text: "UISlider", link: "/ua/Engine/Classes/UISlider" },
-          { text: "UIText", link: "/ua/Engine/Classes/UIText" },
-          { text: "UITextField", link: "/ua/Engine/Classes/UITextField" },
-          { text: "UIRenderer", link: "/ua/Engine/Classes/UIRenderer" },
-          { text: "UserSettings", link: "/ua/Engine/Classes/UserSettings" },
-          { text: "WindowIcon", link: "/ua/Engine/Classes/WindowIcon" },
-          { text: "WorldGenerator", link: "/ua/Engine/Classes/WorldGenerator" }
+          {
+            text: "Корінь Engine",
+            collapsed: true,
+            items: [
+              { text: "DiscordManager", link: "/ua/Engine/Classes/DiscordManager" },
+              { text: "GameWindow", link: "/ua/Engine/Classes/GameWindow" },
+              { text: "GlobalUsings", link: "/ua/Engine/Classes/GlobalUsings" },
+              { text: "Localization", link: "/ua/Engine/Classes/Localization" },
+              { text: "UserSettings", link: "/ua/Engine/Classes/UserSettings" },
+            ]
+          },
+          {
+            text: "Assets",
+            collapsed: true,
+            items: [
+              { text: "AssetManager", link: "/ua/Engine/Classes/AssetManager" },
+            ]
+          },
+          {
+            text: "Audio",
+            collapsed: true,
+            items: [
+              { text: "AudioManager", link: "/ua/Engine/Classes/AudioManager" },
+              { text: "Sound", link: "/ua/Engine/Classes/Sound" },
+            ]
+          },
+          {
+            text: "Input",
+            collapsed: true,
+            items: [
+              { text: "CommandHandler", link: "/ua/Engine/Classes/CommandHandler" },
+              { text: "InputManager", link: "/ua/Engine/Classes/InputManager" },
+              { text: "KeyBind", link: "/ua/Engine/Classes/KeyBind" },
+            ]
+          },
+          {
+            text: "Physics",
+            collapsed: true,
+            items: [
+              { text: "AABB", link: "/ua/Engine/Classes/AABB" },
+              { text: "Chunk", link: "/ua/Engine/Classes/Chunk" },
+              { text: "Player", link: "/ua/Engine/Classes/Player" },
+              { text: "Raycast", link: "/ua/Engine/Classes/Raycast" },
+              { text: "Time", link: "/ua/Engine/Classes/Time" },
+            ]
+          },
+          {
+            text: "Rendering",
+            collapsed: true,
+            items: [
+              { text: "Camera", link: "/ua/Engine/Classes/Camera" },
+              { text: "ColorTranslator", link: "/ua/Engine/Classes/ColorTranslator" },
+              { text: "Mesh", link: "/ua/Engine/Classes/Mesh" },
+              { text: "Shader", link: "/ua/Engine/Classes/Shader" },
+              { text: "Texture", link: "/ua/Engine/Classes/Texture" },
+              { text: "WindowIcon", link: "/ua/Engine/Classes/WindowIcon" },
+              { text: "BlockOutlineRenderer", link: "/ua/Engine/Classes/BlockOutlineRenderer" },
+            ]
+          },
+          {
+            text: "Scene",
+            collapsed: true,
+            items: [
+              { text: "IScene", link: "/ua/Engine/Classes/IScene" },
+              { text: "SceneManager", link: "/ua/Engine/Classes/SceneManager" },
+            ]
+          },
+          {
+            text: "UI",
+            collapsed: true,
+            items: [
+              { text: "Anchor", link: "/ua/Engine/Classes/Anchor" },
+              { text: "Canvas", link: "/ua/Engine/Classes/Canvas" },
+              { text: "UIElement", link: "/ua/Engine/Classes/UIElement" },
+              { text: "UIRenderer", link: "/ua/Engine/Classes/UIRenderer" },
+              { text: "UIAnimation", link: "/ua/Engine/Classes/UIAnimation" },
+              { text: "UIButton", link: "/ua/Engine/Classes/UIButton" },
+              { text: "UIHint", link: "/ua/Engine/Classes/UIHint" },
+              { text: "UIImage", link: "/ua/Engine/Classes/UIImage" },
+              { text: "UISlider", link: "/ua/Engine/Classes/UISlider" },
+              { text: "UIText", link: "/ua/Engine/Classes/UIText" },
+              { text: "UITextField", link: "/ua/Engine/Classes/UITextField" },
+            ]
+          },
+          {
+            text: "World",
+            collapsed: true,
+            items: [
+              { text: "GameWorld", link: "/ua/Engine/Classes/GameWorld" },
+              { text: "WorldGenerator", link: "/ua/Engine/Classes/WorldGenerator" },
+              { text: "Block", link: "/ua/Engine/Classes/Block" },
+              { text: "BlockMeshes", link: "/ua/Engine/Classes/BlockMeshes" },
+            ]
+          },
         ]
       }
     ]

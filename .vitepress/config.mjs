@@ -11,6 +11,14 @@ export default defineConfig({
   },
   ignoreDeadLinks: true,
 
+  markdown: {
+    shikiSetup(shiki) {},
+    theme: {
+      light: 'github-light',
+      dark: 'github-dark'
+    }
+  },
+
   locales: {
     root: {
       label: 'English',
@@ -31,14 +39,7 @@ export default defineConfig({
   
   title: "SharpCraft Docs",
   description: "Documentation for SharpCraft, a Minecraft-like engine written in C#.",
-  appearance: false,
-  head: [
-    [
-      'script',
-      {},
-      `document.documentElement.classList.toggle('dark', window.matchMedia('(prefers-color-scheme: dark)').matches)`
-    ]
-  ],
+  appearance: 'force-dark',
 
 
   themeConfig: {
