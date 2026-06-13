@@ -68,6 +68,10 @@
   cursor: default;
 }
 
+.docversion-badge {
+  cursor: default;
+}
+
 .feature-row {
   display: flex;
   align-items: center;

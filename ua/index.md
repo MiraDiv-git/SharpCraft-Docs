@@ -10,11 +10,11 @@ hero:
     - text: Загальна інформація
       link: /ua/AboutSetup/introduction
 
-    - text: Розробка рушія
+    - text: API Рушія
       link: /ua/Engine/Classes/class-list
       
-    - text: Розробка гри
-      link: /ua/
+    - text: Створення гри
+      link: /ua/Game/HelloWorld
 
 # features:
 #   - icon: .NET
@@ -29,6 +29,10 @@ hero:
 <div class="WIPWarning">
   <span>⚠️ Рушій SharpCraft та його документація наразі перебувають у стадії активної розробки.<br>
   Деякі функції можуть бути незавершеними, недоступними або ще не повністю задокументованими.</span>
+</div>
+
+<div class="WIPWarning">
+  <span>⚠️ Локалізація знаходиться у стадії тестування. Більшу кількість документації можна отримати лише в Англійській локалізації сайту.</span>
 </div>
 
 <div class="feature-row">

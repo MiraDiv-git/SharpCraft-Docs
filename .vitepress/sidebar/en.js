@@ -5,14 +5,15 @@ export default [
       { text: 'Introduction', link: '/AboutSetup/introduction' },
       { text: 'License', link: '/AboutSetup/license' },
       // { text: 'Contributing', link: '/AboutSetup/contributing' },
-      { text: 'Getting Started', link: '/AboutSetup/getting-started' },
-      { text: 'Architecture', link: '/AboutSetup/architecture' }
+      { text: 'Getting Started', link: '/AboutSetup/getting-started' }
     ]
   },
   {
     text: "Engine API",
     items: [
+      { text: 'Architecture', link: '/Engine/architecture' },
       { text: "Configuration", link: "/Engine/Configuration" },
+      
       {
         text: "Classes",
         collapsed: true,
@@ -127,6 +128,12 @@ export default [
         ]
       }
     ]
+  },
+  {
+    text: "Creating Game",
+    items: [
+      { text: "Minimal Project", link: "/Game/minimal" },
+      { text: "Hello, World!", link: "/Game/HelloWorld" },
+    ]
   }
-
 ]

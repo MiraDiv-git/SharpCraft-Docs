@@ -44,12 +44,12 @@
 ## UI
 - [**Anchor**](class-list) *(WIP)*
 - [**Canvas**](class-list) *(WIP)*
-- [**UIElement**](class-list) *(WIP)*
+- [**UIElement**](UIElement)
 - [**UIRenderer**](class-list) *(WIP)*
 
 ### UI.Elements
 - [**UIAnimation**](class-list) *(WIP)*
-- [**UIButton**](class-list) *(WIP)*
+- [**UIButton**](UIButton)
 - [**UIHint**](class-list) *(WIP)*
 - [**UIImage**](class-list) *(WIP)*
 - [**UISlider**](class-list) *(WIP)*

@@ -13,8 +13,8 @@ hero:
     - text: Engine API
       link: /Engine/Classes/class-list
       
-    - text: Game API
-      link: /
+    - text: Creating Game
+      link: /Game/minimal
 
 # features:
 #   - icon: .NET

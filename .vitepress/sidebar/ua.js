@@ -6,12 +6,14 @@ export default [
       { text: 'Ліцензія', link: '/ua/AboutSetup/license' },
       // { text: 'Contributing', link: '/AboutSetup/contributing' },
       { text: 'Початок роботи', link: '/ua/AboutSetup/getting-started' },
-      { text: 'Архітектура', link: '/ua/AboutSetup/architecture' }
     ]
   },
   {
-    text: "Engine API",
+    text: "API Рушія",
     items: [
+      { text: 'Архітектура', link: '/ua/Engine/architecture' },
+      { text: "Конфігурація", link: "/ua/Engine/Configuration" },
+      
       {
         text: "Класи",
         collapsed: true,
@@ -92,13 +94,19 @@ export default [
               { text: "Canvas", link: "/ua/Engine/Classes/Canvas" },
               { text: "UIElement", link: "/ua/Engine/Classes/UIElement" },
               { text: "UIRenderer", link: "/ua/Engine/Classes/UIRenderer" },
-              { text: "UIAnimation", link: "/ua/Engine/Classes/UIAnimation" },
-              { text: "UIButton", link: "/ua/Engine/Classes/UIButton" },
-              { text: "UIHint", link: "/ua/Engine/Classes/UIHint" },
-              { text: "UIImage", link: "/ua/Engine/Classes/UIImage" },
-              { text: "UISlider", link: "/ua/Engine/Classes/UISlider" },
-              { text: "UIText", link: "/ua/Engine/Classes/UIText" },
-              { text: "UITextField", link: "/ua/Engine/Classes/UITextField" },
+              {
+                text: "Elements",
+                collapsed: true,
+                items: [
+                  { text: "UIAnimation", link: "/ua/Engine/Classes/UIAnimation" },
+                  { text: "UIButton", link: "/ua/Engine/Classes/UIButton" },
+                  { text: "UIHint", link: "/ua/Engine/Classes/UIHint" },
+                  { text: "UIImage", link: "/ua/Engine/Classes/UIImage" },
+                  { text: "UISlider", link: "/ua/Engine/Classes/UISlider" },
+                  { text: "UIText", link: "/ua/Engine/Classes/UIText" },
+                  { text: "UITextField", link: "/ua/Engine/Classes/UITextField" },
+                ]
+              }
             ]
           },
           {
@@ -107,12 +115,25 @@ export default [
             items: [
               { text: "GameWorld", link: "/ua/Engine/Classes/GameWorld" },
               { text: "WorldGenerator", link: "/ua/Engine/Classes/WorldGenerator" },
-              { text: "Block", link: "/ua/Engine/Classes/Block" },
-              { text: "BlockMeshes", link: "/ua/Engine/Classes/BlockMeshes" },
+              {
+                text: "Blocks",
+                collapsed: true,
+                items: [
+                  { text: "Block", link: "/ua/Engine/Classes/Block" },
+                  { text: "BlockMeshes", link: "/ua/Engine/Classes/BlockMeshes" },
+                ]
+              }
             ]
           },
         ]
       }
+    ]
+  },
+  {
+    text: "Створення гри",
+    items: [
+      { text: "Мінімальний проєкт", link: "/ua/Game/minimal" },
+      { text: "Hello, World!", link: "/ua/Game/HelloWorld" },
     ]
   }
 ]
