@@ -5,7 +5,6 @@ const version = ref('...')
 const docversion = ref('...')
 
 onMounted(async () => {
-  // Запускаем оба запроса одновременно, чтобы не ждать их по очереди
   try {
     const [engineRes, docsRes] = await Promise.all([
       fetch('https://api.github.com/repos/MiraDiv-git/SharpCraft/tags'),
@@ -18,15 +17,12 @@ onMounted(async () => {
     version.value = engineData[0]?.name ?? 'dev'
     docversion.value = docsData[0]?.name ?? 'dev'
   } catch (e) {
-    // Если гитхаб прилег или упёрся в лимиты запросов
     version.value = 'dev'
     docversion.value = 'dev'
   }
 })
 
-// Проверяем совпадение версий (работает автоматически, когда прилетят данные)
 const isSameVersion = computed(() => {
-  // Пока данные грузятся ('...'), не считаем их совпавшими
   if (version.value === '...' || docversion.value === '...') return false
   return version.value === docversion.value
 })
