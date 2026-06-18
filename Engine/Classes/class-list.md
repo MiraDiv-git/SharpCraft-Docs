@@ -47,7 +47,7 @@
 - [**UIElement**](UIElement)
 - [**UIRenderer**](class-list) *(WIP)*
 
-### UI.Elements
+### Elements
 - [**UIAnimation**](class-list) *(WIP)*
 - [**UIButton**](UIButton)
 - [**UIHint**](class-list) *(WIP)*

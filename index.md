@@ -10,10 +10,10 @@ hero:
     - text: About & Setup
       link: /AboutSetup/introduction
 
-    - text: Engine API
-      link: /Engine/Classes/class-list
+    - text: Learning the Engine
+      link: /Engine/architecture
       
-    - text: Creating Game
+    - text: Creating a Game
       link: /Game/minimal
 
 # features:

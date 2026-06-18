@@ -9,7 +9,7 @@ export default [
     ]
   },
   {
-    text: "Engine API",
+    text: "Learning the Engine",
     items: [
       { text: 'Architecture', link: '/Engine/architecture' },
       { text: "Configuration", link: "/Engine/Configuration" },
@@ -130,9 +130,9 @@ export default [
     ]
   },
   {
-    text: "Creating Game",
+    text: "Creating a Game",
     items: [
-      { text: "Minimal Project", link: "/Game/minimal" },
+      { text: "Project Hierarchy", link: "/Game/minimal" },
       { text: "Hello, World!", link: "/Game/HelloWorld" },
     ]
   }

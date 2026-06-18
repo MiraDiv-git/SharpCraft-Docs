@@ -7,10 +7,10 @@ hero:
   tagline: Офіційна документація для open-source воксельного 3D рушія на C#
   
   actions:
-    - text: Загальна інформація
+    - text: Про SharpCraft
       link: /ua/AboutSetup/introduction
 
-    - text: API Рушія
+    - text: Робота з Рушієм
       link: /ua/Engine/Classes/class-list
       
     - text: Створення гри

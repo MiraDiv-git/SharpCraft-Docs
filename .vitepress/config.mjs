@@ -52,7 +52,6 @@ export default defineConfig({
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/MiraDiv-git/SharpCraft' },
-      // { icon: 'twitter', link: 'https://twitter.com/vuejs' }
     ]
   }
 })

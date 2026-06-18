@@ -1,6 +1,6 @@
 export default [
   {
-    text: 'Загальна інформація',
+    text: 'Про SharpCraft',
     items: [
       { text: 'Вступ', link: '/ua/AboutSetup/introduction' },
       { text: 'Ліцензія', link: '/ua/AboutSetup/license' },
@@ -9,7 +9,7 @@ export default [
     ]
   },
   {
-    text: "API Рушія",
+    text: "Робота з рушієм",
     items: [
       { text: 'Архітектура', link: '/ua/Engine/architecture' },
       { text: "Конфігурація", link: "/ua/Engine/Configuration" },
@@ -132,7 +132,7 @@ export default [
   {
     text: "Створення гри",
     items: [
-      { text: "Мінімальний проєкт", link: "/ua/Game/minimal" },
+      { text: "Ієрархія проєкту", link: "/ua/Game/minimal" },
       { text: "Hello, World!", link: "/ua/Game/HelloWorld" },
     ]
   }

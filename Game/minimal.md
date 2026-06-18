@@ -20,6 +20,8 @@ You should have exactly this project structure by default:
   ]}
 ]" />
 
+You can replace any of those assets, but deleting even one of them will make game dead.
+
 
 ## Main scene
 ```cs

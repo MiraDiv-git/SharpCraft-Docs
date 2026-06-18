@@ -40,6 +40,7 @@ The repo includes `build.sh` and `build.bat` for quick builds. Usage: `./build.s
 chmod +x ./build.sh
 ./build.sh linux-x64 Debug
 ```
+Build will be saved in `/publish/Debug/linux-x64/`
 
 ### Using the .NET CLI directly
 

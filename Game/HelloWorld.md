@@ -3,7 +3,6 @@
 ```cs
 using SharpCraft.Engine.Scene;
 using SharpCraft.Engine.UI;
-using SharpCraft.Engine.UI.Elements;
 
 namespace SharpCraft.Game;
 
